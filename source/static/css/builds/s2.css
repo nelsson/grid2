@@ -1,0 +1,31 @@
+.cf {
+  zoom: 1;
+}
+.cf:after,
+.cf:before {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.hijo {
+  width: 300px;
+  height: 300px;
+  background-color: #f00;
+  display: inline-block;
+  vertical-align: top;
+}
+.demo-wrap {
+  width: 500px;
+  height: 300px;
+  border: 1px solid #000;
+  text-align: center;
+  line-height: 300px;
+}
+.center {
+  width: 10px;
+  height: 10px;
+  background-color: #f00;
+  display: inline-block;
+}
