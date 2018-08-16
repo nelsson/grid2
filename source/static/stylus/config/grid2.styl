@@ -38,6 +38,7 @@
 			section,
 			summary,
 			li,
+			a,
 			ul	
 				width 50%	
 				
@@ -76,7 +77,8 @@
 			section,
 			summary
 			li,
-			ul
+			ul,
+			a
 				width 25%														
 	&.box5
 		>
@@ -113,7 +115,7 @@
 		align-items center
 		justify-content center
 		
-	&.fdc1024
+	&.r1024
 		@media screen and (max-width:1024px)
 			flex-direction column
 			>
@@ -129,10 +131,31 @@
 				main,
 				nav,
 				section,
-				summary
+				summary, 
+				a
+					width 100%		
+					
+	&.r1000
+		@media screen and (max-width:1000px)
+			flex-direction column
+			>
+				div,
+				article,
+				aside,
+				details,
+				figcaption,
+				figure,
+				footer,
+				header,
+				hgroup,
+				main,
+				nav,
+				section,
+				summary, 
+				a
 					width 100%
 	
-	&.fdc960
+	&.r960
 		@media screen and (max-width:960px)
 			flex-direction column
 			>
@@ -148,10 +171,11 @@
 				main,
 				nav,
 				section,
-				summary
+				summary,
+				a
 					width 100%
 	
-	&.fdc768
+	&.r768
 		@media screen and (max-width:768px)
 			flex-direction column
 			>
@@ -167,9 +191,29 @@
 				main,
 				nav,
 				section,
-				summary
+				summary,
+				a
+					width 100%		
+	&.r745
+		@media screen and (max-width:745px)
+			flex-direction column
+			>
+				div,
+				article,
+				aside,
+				details,
+				figcaption,
+				figure,
+				footer,
+				header,
+				hgroup,
+				main,
+				nav,
+				section,
+				summary,
+				a
 					width 100%	
-	&.fdc640
+	&.r640
 		@media screen and (max-width:640px)
 			flex-direction column
 			>
@@ -185,9 +229,10 @@
 				main,
 				nav,
 				section,
-				summary
+				summary,
+				a
 					width 100%	
-	&.fdc600
+	&.r600
 		@media screen and (max-width:600px)
 			flex-direction column
 			>
@@ -203,9 +248,10 @@
 				main,
 				nav,
 				section,
-				summary
+				summary,
+				a
 					width 100%	
-	&.fdc480
+	&.r480
 		@media screen and (max-width:480px)
 			flex-direction column
 			>
@@ -221,9 +267,10 @@
 				main,
 				nav,
 				section,
-				summary
+				summary,
+				a
 					width 100%
-	&.fdc320
+	&.r320
 		@media screen and (max-width:320px)
 			flex-direction column
 			>
@@ -239,7 +286,8 @@
 				main,
 				nav,
 				section,
-				summary
+				summary,
+				a
 					width 100%
 					
 
